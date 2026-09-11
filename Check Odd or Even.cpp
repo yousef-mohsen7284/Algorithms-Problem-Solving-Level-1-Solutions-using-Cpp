@@ -21,6 +21,7 @@ enNumberType CheckNumberType(int Number) {
 
 void PrintNumberType(enNumberType NumberType) {
 
+	if (NumberType == enNumberType::Even)
 		cout << "Number is Even\n";
 	else
 		cout << "Number is Odd\n";
